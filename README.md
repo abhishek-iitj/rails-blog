@@ -1,4 +1,4 @@
-# Rails-Blog 
+# Rails-Blog [![Build Status](https://travis-ci.org/abhishek-iitj/rails-blog.svg?branch=master)](https://travis-ci.org/abhishek-iitj/rails-blog)
 A web app for blogging written in Ruby(Rails)
 
 ## Installation:
