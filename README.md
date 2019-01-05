@@ -16,6 +16,10 @@ A web app for blogging written in Ruby(Rails)
     ```
     $ bundle install
     ```
+- Run Tests
+    ```
+    $ bundle exec rspec
+    ```
 - Run server
     ```
     $ bin/rails server
