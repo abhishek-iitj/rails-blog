@@ -3,7 +3,7 @@ A web app for blogging written in Ruby(Rails)
 
 ## Installation:
 ### Requirements:
-- Ruby 2.3.1
+- Ruby 2.5.3
 - Ruby on Rails 5.2.2
 
 ### Procedure:
@@ -15,6 +15,10 @@ A web app for blogging written in Ruby(Rails)
 - Use bundle to install required packages from `Gemfile`
     ```
     $ bundle install
+    ```
+- Run Migrations
+    ```
+    $ bundle exec rake db:migrate
     ```
 - Run Tests
     ```
