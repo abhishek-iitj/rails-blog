@@ -1,4 +1,4 @@
-# Rails-Blog [![Build Status](https://travis-ci.org/abhishek-iitj/rails-blog.svg?branch=master)](https://travis-ci.org/abhishek-iitj/rails-blog)  [![Coverage Status](https://coveralls.io/repos/github/abhishek-iitj/rails-blog/badge.svg?branch=master)](https://coveralls.io/github/abhishek-iitj/rails-blog?branch=master) [![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/abhishek-iitj/rails-blog)
+# Rails-Blog [![Build Status](https://travis-ci.org/abhishek-iitj/rails-blog.svg?branch=master)](https://travis-ci.org/abhishek-iitj/rails-blog)  [![Test Coverage](https://api.codeclimate.com/v1/badges/e7a53f01fb8c3f98d9ad/test_coverage)](https://codeclimate.com/github/abhishek-iitj/rails-blog/test_coverage) [![Maintainability](https://api.codeclimate.com/v1/badges/e7a53f01fb8c3f98d9ad/maintainability)](https://codeclimate.com/github/abhishek-iitj/rails-blog/maintainability)
 A web app for blogging written in Ruby(Rails)
 
 ## Installation:
