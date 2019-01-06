@@ -17,7 +17,7 @@ deploy:
   api_key:
     secure: "BBWvk4D6COfmqWrD3BI+QJfH6JV8ytuXl1dAGMhpaQ44ZelzdIECU1D0/y/B8FSXLyZSZtdtKCEAFhZogQBGFndX/N40BRgy4+vhLxQA1xVUdO9L2J3fud1Msjr9dL+fx0YdgsH/Syd2qMAGTjzED5hh3y4l5/GtXmsY3ueUR35w7zDeQrvmKzpojYFoatnCd9fufyp5CFczmCq4rAl2r2Oysp2Qr9YdxpbIXMB435Fpa01QzNSSn86oJeWQoL3E8/m44ATWYzIuozogI48JTG2p5t4x3hVfLIqduXN1ngeQ4VFB4YIu9kEWuyGz38+hSDDVxDDrIu/cYAOGEXMR+d3ja2Zg8aWFb5wO4Zbrv+g+ntkSf7URnycRbQ/E8B/HyKwW7MuW04cFU6ocxz/GMPmpDXW+5K/rL/gqInIl9B6zdzhDBxWmTKVGcmn7cTWGKGJbkhm5HPaksaWal744MGDkcphbaQ5VwI2JsHmL4WvCbYtubf0pdumKliLIHKPahGeJXV43lFY+Ki9wC5ymLtxCuIXBipY1bwShs4SEmQ1DfYxoGPF1l8rFFfMgzx3pNp3tx4ueHEjSRgiuFSjV5XCfi245goZiuneafbh+fKqWptZ5sXg/7nkt+N9QeUDf85ZMoyL/rmYlQMhD8MmfMmjqusEYPqD24dYea/6V8Zc="
    run:
-    - "rake db:migrate"
+    - bundle exec rake db:migrate
   app: blooming-citadel-69635
   on:
     repo: abhishek-iitj / rails-blog
