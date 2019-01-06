@@ -19,4 +19,4 @@ deploy:
   run: bundle exec rake db:migrate
   app: blooming-citadel-69635
   on:
-    repo: abhishek-iitj / rails-blog
+    repo: abhishek-iitj/rails-blog
