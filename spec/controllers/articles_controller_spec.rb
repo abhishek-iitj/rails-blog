@@ -7,6 +7,10 @@ RSpec.describe ArticlesController, type: :controller do
         get :index
         expect(response).to render_template(:index)
       end
+      it 'gives correct status code' do
+        get :index
+        expect(response.status).to eq(200)
+      end
     end
   end
 end
